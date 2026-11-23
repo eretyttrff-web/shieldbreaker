@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "hackclient",
+  "version": "${version}",
+  "name": "ShieldBreaker",
+  "description": "Auto axe-swap to break shields, then swap back.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.example.client.HackClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
